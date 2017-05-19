@@ -6,6 +6,8 @@ use PHPUnit\Framework\TestCase;
 /**
  * @covers Email
  */
+
+public Email email= new Email;
 final class EmailTest extends TestCase
 {
     public function testCanBeCreatedFromValidEmailAddress()
